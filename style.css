@@ -1,0 +1,27 @@
+*,:after,:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+    margin: 0;
+}
+.pagetop {
+    background-color: #1d2a35;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.pagetop--left{
+    display: flex;
+}
+.menu{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
