@@ -1,8 +1,8 @@
 *,:after,:before {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
     border: 0;
+    margin: 0;
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -19,9 +19,21 @@ body{
 }
 .pagetop--left{
     display: flex;
+    margin: 7px;
+    outline: 7px;
+}
+.pagetop--right{
+    display: flex;
+    margin: 7px;
+    outline: 7px;
 }
 .menu{
     display: flex;
-    gap: 4px;
     align-items: center;
+}
+.menu--cpacing--left{
+    Padding: 0 30px 0 10px;
+}
+.menu--cpacing--right{
+    Padding: 0 10px 0 20px;
 }
