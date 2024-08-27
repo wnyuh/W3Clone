@@ -16,24 +16,30 @@ body{
     display: flex;
     justify-content: space-between;
     color: aliceblue;
+    padding: 0 10px;
 }
 .pagetop--left{
     display: flex;
-    margin: 7px;
-    outline: 7px;
+    .menu--item {
+        padding: 20px 10px;
+    }
+    .menu--item:hover {
+        background-color: #04AA6D;
+        color: aliceblue;
+    }
 }
 .pagetop--right{
     display: flex;
-    margin: 7px;
-    outline: 7px;
 }
 .menu{
     display: flex;
     align-items: center;
 }
-.menu--cpacing--left{
-    Padding: 0 30px 0 10px;
+
+.logo {
+    color: #04AA6D;
+    margin-right: 20px;
 }
-.menu--cpacing--right{
-    Padding: 0 10px 0 20px;
-}
+.logo:hover {
+    color: white;
+ }
